@@ -27,7 +27,7 @@ for num in range(1, nr_numbers+1):
 for sym in range(1, nr_symbols+1):
     random_sym = random.choice(symbols)
     password.append(random.choice(symbols))
-print(password)
+print( "".join(password)))
 
 # ====================================================
 
