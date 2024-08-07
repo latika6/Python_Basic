@@ -32,7 +32,8 @@ def calculate_love_score(name1, name2):
     l = lower_names.count("l")
     o = lower_names.count("o")
     v = lower_names.count("v")
-    second_digit = l + o + v
+    e = lower_names.count("e")
+    second_digit = l + o + v + e
     score = int(str(first_digit) + str(second_digit))
     return score
 love_score = calculate_love_score("Kanye West", "Kim Kardashian")
