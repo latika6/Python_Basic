@@ -1,3 +1,4 @@
+import numpy as np
 # type your code here
 weights = [74.2, 85, 74, 67.9, 52, 70.5, 86, 51.8, 64, 82]
 array_weight = np.array(weights)
