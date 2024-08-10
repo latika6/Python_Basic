@@ -12,3 +12,8 @@ power_number
 random_fifth = np.arange(1,6)
 random_power = np.power(random_fifth, 5)
 random_power
+
+ # Write a program to create an array of all the odd integers from 50 to 100 
+arr = np.arange(50,101)
+mask = (arr % 2 != 0)
+arr[mask]
