@@ -1,2 +1,2 @@
-char = input("L@tes#")
-print((ord(char))
+char = "L"
+print(ord(char))
